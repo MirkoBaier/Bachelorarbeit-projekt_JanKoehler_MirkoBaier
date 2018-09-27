@@ -1,0 +1,45 @@
+.risikoButton {
+    background-color: white; /* Green */
+    border: 2px solid #008CBA;
+    border-radius: 3px;
+    color: black;
+    height: 35px;
+    width: 122px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.risikoButton:focus {
+    background-color: #2892D7;
+    color: white;
+}
+
+.risikoButton:active {
+    background-color: #2892D7;
+    color: white;
+}
+
+.risikoButton:hover {
+    background-color: #2892D7;
+    color: white;
+}
+
+.riskDropdown {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    color: black;
+    background: white 0 -40px;
+}
+
+.riskDropdown:hover {
+    border: 2px solid white;
+    background: #2892D7 0 -40px;
+    color: white;
+}
+
+
+
+

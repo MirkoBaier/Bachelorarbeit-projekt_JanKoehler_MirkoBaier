@@ -1,0 +1,27 @@
+.EtfItems {
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+
+.Etf {
+    border-bottom: 1px solid #efefef;
+}
+
+.removeItem {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid rgba(203, 20, 32, 0.4);
+    border-radius: 3px;
+    padding: 8px;
+    color: rgba(203, 20, 32, 0.4);
+    background-color: transparent;
+}
+
+.removeItem:hover {
+    background-color: rgba(203, 20, 32, 0.4);
+    color: white;
+}

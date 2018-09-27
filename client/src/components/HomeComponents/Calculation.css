@@ -1,0 +1,38 @@
+.calc {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.calcBtn {
+    margin-top: 10px;
+    height: 34px;
+    width: 120px;
+    border: 2px solid #008CBA;
+    border-radius: 3px;
+    padding: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-position: 0 -40px;
+}
+
+.calcBtn:hover {
+    border: 0 solid #2892D7;
+    background: #2892D7 0 -40px;
+    color: white;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 1s linear;
+    height: 60px;
+    margin-left: -40px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

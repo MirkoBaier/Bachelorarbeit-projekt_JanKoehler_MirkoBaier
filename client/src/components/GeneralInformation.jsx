@@ -43,8 +43,8 @@ export default class GeneralInformation extends Component {
                 </div>
                 <Row>
                     <Col xs={12} sm={12} md={6} lg={6}>
-                        <h3 style={{marginTop: "30px"}}>In der Anwendung sieht der <Link  componentClass={Link}
-                            to="/EfficientFrontierInformation" rel="noopener noreferrer" target="_blank">
+                        <h3 style={{marginTop: "30px"}}>In der Anwendung sieht der <Link 
+                            componentClass={Link} href="/EfficientFrontierInformation" to="/EfficientFrontierInformation">
                             effiziente Rand</Link> so aus:</h3>
                         <Image src={efficientFrontierWebsite} alt="Efficient-Frontier-Website" responsive/>
                     </Col>
@@ -53,8 +53,8 @@ export default class GeneralInformation extends Component {
                             Die fünf Punkte spiegeln dabei die verschiedenen Risikostufen wieder.
                             Man kann auch über die einzelnen Datenpunkte hovern, diese zeigen dann erst
                             die Standardabweichung und anschließend die erwartete Rendite an. Der rote
-                            Punkt ist das Referenzportfolio, der <Link componentClass={Link}
-                            to="/Arero" rel="noopener noreferrer" target="_blank">
+                            Punkt ist das Referenzportfolio, der <Link componentClass={Link}  href="/Arero"
+                            to="/Arero">
                             Arero-Fonds</Link>.
                         </p>
                     </Col>

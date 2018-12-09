@@ -51,8 +51,7 @@ function Conclusion(props) {
                     ist um {(ETF_Risk_Mvp - Arero_Risk).toFixed(2)}% höher als die des Arero.
                     Es liegt bei <strong>{ETF_Risk_Mvp}%</strong> und die erwartete Rendite p.a.
                     liegt bei <strong>{ETF_Ren_MVP}%</strong>. Wenn ein <strong>negativer Wert als Invesitionsvorschlag angezeigt wird,
-                    sollte der ETF leerverkauft werden</strong>. Information zu: <Link
-                    className='Leerverkäufe' to="/ShortSelling" rel="noopener noreferrer" target="_blank">
+                    sollte der ETF leerverkauft werden</strong>. Information zu: <Link className='Leerverkäufe' componentClass={Link} href="/shortselling" to="/shortselling">
                     <strong>Leerverkäufen</strong>
                     </Link>.
             </span>;
@@ -79,7 +78,7 @@ function Conclusion(props) {
                         als das des Arero. Es liegt bei {ETF_Risk_Mvp}% und die erwartete Rendite p.a.
                         liegt bei {ETF_Ren_MVP}%.
                         Information zu: <Link
-                        className='Leerverkäufe' to="/ShortSelling" rel="noopener noreferrer" target="_blank">
+                        className='Leerverkäufe' componentClass={Link} href="/shortselling" to="/shortselling">
                         <strong>Leerverkäufen</strong>
                         </Link>.
                     </span>

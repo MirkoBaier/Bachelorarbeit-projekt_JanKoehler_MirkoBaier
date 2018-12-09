@@ -11,7 +11,7 @@ export default class Arero extends Component{
             <div>
                 <Grid>
                     <h2>Datenschutz</h2>
-                    <p align="justify"><Link to="/Footer/Impressum" rel="noopener noreferrer" target="_blank">
+                    <p align="justify"><Link  componentClass={Link} href="/Footer/Impressum" to="/Footer/Impressum">
                         Name der Verantwortlichen und Kontaktdaten </Link></p>
                     <p align="justify">    Auf dieser Website bzw. auf dem Server werden keinerlei personenbezogene
                         Daten gespeichert. Es kann kein Konto mit personenbezogenen Daten eröffnet werden und es werden

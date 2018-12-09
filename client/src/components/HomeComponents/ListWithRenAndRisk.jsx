@@ -91,12 +91,12 @@ function ListWithNumbers(props) {
         return (
             <div align="justify">
                 <p style={{marginBottom: "20px", marginTop: "20px"}}>
-                    Der rote Punkt in dem Diagramm ist der <Link to="/Arero" rel="noopener noreferrer" target="_blank">
+                    Der rote Punkt in dem Diagramm ist der <Link componentClass={Link} href="/arero" to="/arero">
                     <strong>Arero</strong>
                 </Link>, welcher als Referenzpunkt angesehen werden kann.
                     Versuchen Sie möglichst nah an diesem Punkt heranzukommen oder diesen sogar zu schlagen,
                     in Hinsicht auf das Risiko und die erwartete Rendite. Der gezeichnete Graph
-                    stellt den sogenannten <Link to="/Information" rel="noopener noreferrer" target="_blank">
+                    stellt den sogenannten <Link componentClass={Link} href="/information" to="/information">
                     <strong>effizienten Rand</strong>
                 </Link> dar.
                     Die folgende Tabelle zeigt das Risiko und die erwartete Rendite der einzelnen ETFs

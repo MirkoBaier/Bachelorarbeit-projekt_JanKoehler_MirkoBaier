@@ -55,7 +55,7 @@ export default class Etfinput extends Component {
             <div className="EtfInput" align="left">
                 <Row>
                     <Col xs={9} sm={10} md={8} lg={8}>
-                        <Link className='KuerzelErklaerung' to="/Symbol" rel="noopener noreferrer" target="_blank">
+                        <Link componentClass={Link} href="/symbol" to="/symbol" className='KuerzelErklaerung'>
                             <strong>Wichtig:</strong> Kürzel Erklärung
                         </Link>
                         <h4>Geben Sie die Kürzel der ETFs an, in die Sie investieren wollen [höchstens 3 ETFs sind

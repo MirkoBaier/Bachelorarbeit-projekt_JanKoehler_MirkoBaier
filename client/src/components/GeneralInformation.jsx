@@ -17,7 +17,7 @@ export default class GeneralInformation extends Component {
                     Dabei untersucht sie die Risiken der Wertpapiere und die Zusammenhänge
                     zwischen den einzelnen Wertpapieren, um eine Risikominimierung zu erreichen.
                     Wir empfehlen für diese Website
-                    <Link to="Etf" rel="noopener noreferrer" target="_blank"> ETFs
+                    <Link componentClass={Link} href="/etf" to="/etf"> ETFs
                     </Link> zu nutzten, da diese bereits
                     nach der Maxime der Risikominimierung arbeiten. Die Verwendung von anderen
                     Wertpapieren ist auch möglich, allerdings nicht zu empfehlen, wenn das

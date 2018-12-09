@@ -33,7 +33,7 @@ export default class Disclaimer extends Component {
                         Markowitz. <strong>Die Website sollte nicht benutzt werden,
                         um echtes Geld in ein Wertpapier zu investieren!</strong> Bevor Sie anfangen,
                         diese Seite zu benutzen, informieren sie sich zunächst<strong>
-                        <Link to="/GeneralInformation" rel="noopener noreferrer" target="_blank"> hier
+                        <Link componentClass={Link} href="/generalinformation" to="/generalinformation"> hier
                         </Link></strong>, um diese Website ideal nutzen zu können.
                     </p>
                     <p>
